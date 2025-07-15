@@ -1,0 +1,40 @@
+.navBarStyle {
+    background-image:url(background.png);
+}
+
+@keyframes fadeIn {
+ from { opacity: 0; }
+ to { opacity: 1; }
+}
+
+.fade-in {
+ animation: fadeIn 2s ease-in-out;
+}
+
+.text-bubble {
+     background-color: rgba(255, 255, 255, 0.623); /* Semi-transparent white */
+ color: black;
+ padding: 20px;
+ border-radius: 5px;
+ max-width: 1200px;
+ margin: 20px auto;
+}
+
+img {
+ width: 190px; /* Set the width */
+ height: auto; /* Maintain aspect ratio */
+}
+
+.text-bubble2 {
+     background-color: rgba(255, 255, 255, 0.373); /* Semi-transparent white */
+ color: black;
+ padding: 20px;
+ border-radius: 5px;
+ max-width: 400px;
+ margin: 20px auto;
+}
+
+img {
+ width: 190px; /* Set the width */
+ height: auto; /* Maintain aspect ratio */
+}

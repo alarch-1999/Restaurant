@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .star-rating {
+            direction: rtl;
+            display: inline-flex;
+            font-size: 2rem;
+        }
+
+        .star-rating input {
+            display: none;
+        }
+
+        .star-rating label {
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .star-rating input:checked ~ label,
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: rgb(4, 57, 2);
+        }
+        </style>
+        <title>Document</title>
+</head>
+<body class="navBarStyle" style="text-align: center;">
+<div class="container">
+    <h1 style=" font-size: 70px;color:maroon;">Leave Mamma a Review</h1>
+    <div class="text-bubble2">
+        <div class="row">
+            <h1 style="font-size: 30px;">We'd love to hear from you!</h1>
+            <h4 style="font-size: 20px;">Please fill out the form below.</h4>
+        </div>
+        <div class="row">
+            <form>
+                <label> First name: </label>
+                <input type="text" value="Enter your first name"><br><br>
+
+                <label> Last name: </label>
+                <input type="text" value="Enter your last name">
+
+            </form>
+        </div>
+<p></p>
+        <div class="row">
+            <form>
+                <label style="font-size: 20px;">What did you have to eat?: </label><br><br>
+                <select>
+                    <option value="lemonade"> Lemonade</option>
+                    <option value="sweettea"> Sweet Tea</option>
+                    <option value="water_with_lemon"> Water with Lemon</option>
+                </select>
+         <div class="star-rating">
+            <input type="radio" id="star5" name="ratinglemonade" value="5"><label for="star5">★</label>
+            <input type="radio" id="star4" name="ratinglemonade" value="4"><label for="star4">★</label>
+            <input type="radio" id="star3" name="ratinglemonade" value="3"><label for="star3">★</label>
+            <input type="radio" id="star2" name="ratinglemonade" value="2"><label for="star2">★</label>
+            <input type="radio" id="star1" name="ratinglemonade" value="1"><label for="star1">★</label>
+        </div><br><br>
+                <select>
+                    <option value="bbq_brisket"> BBQ Brisket</option>
+                    <option value="crispy_fried_chicken"> Crispy Fried Chicken</option>
+                    <option value="slow_cooked_smothered_pork_chops"> Slow-Cooked Smothered Pork Chops</option>
+                </select>
+        <div class="star-rating">
+            <input type="radio" id="sta5" name="ratingbrisket" value="5"><label for="sta5">★</label>
+            <input type="radio" id="sta4" name="ratingbrisket" value="4"><label for="sta4">★</label>
+            <input type="radio" id="sta3" name="ratingbrisket" value="3"><label for="sta3">★</label>
+            <input type="radio" id="sta2" name="ratingbrisket" value="2"><label for="sta2">★</label>
+            <input type="radio" id="sta1" name="ratingbrisket" value="1"><label for="sta1">★</label>
+        </div><br><br>
+                <select>
+                    <option value="baked_mac_&_cheese"> Baked Mac & Cheese</option>
+                    <option value="mammas_famous_soup_of_the_day"> Mamma's Famous Soup of the Day</option>
+                    <option value="cornbread_muffins"> Cornbread Muffins</option>
+                </select>
+         <div class="star-rating">
+            <input type="radio" id="sar5" name="ratingcheese" value="5"><label for="sar5">★</label>
+            <input type="radio" id="sar4" name="ratingcheese" value="4"><label for="sar4">★</label>
+            <input type="radio" id="sar3" name="ratingcheese" value="3"><label for="sar3">★</label>
+            <input type="radio" id="sar2" name="ratingcheese" value="2"><label for="sar2">★</label>
+            <input type="radio" id="sar1" name="ratingcheese" value="1"><label for="sar1">★</label>
+        </div><br><br>
+                <select>
+                    <option value="apple_dumblings"> Apple Dumblings</option>
+                    <option value="banana_pudding"> Banana Pudding</option>
+                    <option value="peach_cobbler"> Peach Cobbler</option>
+                </select>
+        <div class="star-rating">
+            <input type="radio" id="tar5" name="ratingapple" value="5"><label for="tar5">★</label>
+            <input type="radio" id="tar4" name="ratingapple" value="4"><label for="tar4">★</label>
+            <input type="radio" id="tar3" name="ratingapple" value="3"><label for="tar3">★</label>
+            <input type="radio" id="tar2" name="ratingapple" value="2"><label for="tar2">★</label>
+            <input type="radio" id="tar1" name="ratingapple" value="1"><label for="tar1">★</label>
+        </div><br><br>
+            </form>
+        </div>
+        <div class="row">
+        <input type="submit" value="Submit your response" class="btn btn-success">
+        <a href="firstClinet.html" target="_blank">Return Home</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
